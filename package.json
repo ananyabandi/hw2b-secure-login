@@ -1,0 +1,14 @@
+{
+    "name": "hw2b-login",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A login form with validation.",
+    "scripts": {
+      "start": "node server.js",
+      "safe": "node server.js --safe"
+    },
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "express": "^4.21.2"
+    }
+  }

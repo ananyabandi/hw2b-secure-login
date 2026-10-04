@@ -48,11 +48,3 @@ Reload the page.
 
 Fixed mode uses a generic login failure message and renders server
 messages with textContent instead of innerHTML.
-
-## Security experiment
-
-The default mode deliberately contains an XSS vulnerability.
-A failed login reflects the supplied email into a message, which
-the browser renders using innerHTML.
-
-Use fake data and run this demonstration locally.
